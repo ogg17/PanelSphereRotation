@@ -1,7 +1,10 @@
 using Physics;
 using UnityEngine;
 
-public class SphereRotation : MonoBehaviour
+/// <summary>
+/// Вращает объект по внутренней поверхности сферы
+/// </summary>
+public class ObjectRotationInSphere : MonoBehaviour
 {
     [Tooltip("Центр сферы, по внутренней поверхности которой будет происходить перемещение")]
     [SerializeField] private Transform center;
